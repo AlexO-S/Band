@@ -1,0 +1,708 @@
+* {
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* HEADER SECTION */
+#nav-bar header {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    z-index: 99;
+}
+
+#nav-bar header ul li {
+    font-size: 15px;
+    list-style: none;
+    display: inline;
+}
+
+#nav-bar header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 16px 24px;
+}
+
+#nav-bar header ul li a:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+#nav-bar header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar header ul li .more:hover {
+    color: black;
+}
+
+#nav-bar header ul .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#nav-bar header ul .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    line-height: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#nav-bar ul .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+#nav-bar header ul .dropdown-content a:hover {
+    background-color: #ccc;
+}
+
+#nav-bar header ul .dropdown  .more {
+    padding: 16.6px 24px;
+}
+
+#nav-bar header ul .dropdown:hover .more {
+    background-color: #ccc;
+} 
+
+#nav-bar header ul .dropdown-content a {
+    background-color: white;
+}
+
+#nav-bar header ul .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#nav-bar header p {
+    padding: 15.5px 20px;
+    color: white;
+}
+    
+#nav-bar header p:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+
+
+
+/* HOME SECTION */
+#home {
+    position: relative;
+}
+
+.home-image img {
+    width: 100%;
+}
+
+#home .los-and-text {
+    color: white;
+    text-align: center;
+    position: absolute, 100px;
+    margin-top: -135px;
+    font-family: Verdana, sans-serif;
+    line-height: 25px;
+}
+
+.los-and-text .los {
+    font-weight: 100px;
+    font-size: 23px;
+    margin-bottom: 17px;
+}
+
+.los-and-text .text {
+    font-size: 15px;
+} 
+/*  */
+
+
+
+/* BAND SECTION */
+.band-and-text {
+    margin-top: 70px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+} 
+
+.band-and-text .band {
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+
+.band-and-text .love {
+    color: gray;
+    font-size: 15px;
+    margin-top: 28px;
+}
+
+.band-and-text .text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    margin: 22px 18% 0 18%; 
+    line-height: 24px;
+    font-size: 15px;
+}
+
+
+#name-image {
+    text-align: center;
+}
+
+.name-image {
+    margin-top: 78px;
+    line-height: -10px;
+    display: inline-block;
+    justify-items: center;
+}
+
+.name-image .name {
+    margin-bottom: 20px;
+}
+
+.name-image img  {
+    width: 150px;
+    border-radius: 4px;
+    margin: 0 50px;
+    align-items: center;
+}
+/*  */
+
+
+
+/* TOUR SECTION */
+#tour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour-book-place {
+    background-color: black;
+    height: 835px;
+    width: 100%;
+    }
+
+.tour-dates {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+
+div .remember {
+    color: gray;
+    text-align: center;
+    margin: 25px 0 20px 0;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  div .months {
+    margin-top: 35px;
+    display: inline-table;
+    justify-content: center;
+    width: 743px;
+    height: 120px;
+    border: 1px solid gray;
+    border-collapse: collapse
+}
+
+.book col {
+    background-color: rgb(255, 255, 255);
+}
+
+.book table td {
+    padding-left: 20px;
+    width: 750px;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 14px;
+}
+
+.book tr td span {
+    background-color: rgb(253, 70, 70);
+    margin-left: 15px;
+    color: white;
+    padding: 3px 10px;
+}
+
+.book td .three {
+    background-color: rgb(0, 0, 0);
+    margin-left: 600px; 
+    color: white;
+    padding: 3px 9px;
+    border-radius: 50px;
+}
+
+
+#places {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;    
+}
+
+div .place {
+    display: inline;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-color: white;
+    position: relative;
+    width: 238px;
+    gap: 5px;
+    height: 384px;
+    font-size: 14px;
+}
+
+.place1  {
+    position: absolute; 
+}
+
+div .black-background {
+    background-color: black;
+    width: 238px;
+    height: 178px;
+    position: absolute;
+}
+
+div .place .place1 img {
+    width: 238px;
+    position: absolute;
+}
+
+div .place .place1 img:hover {
+    opacity: 0.5;
+}
+
+div .place1-text {
+    margin-top: 195px;
+}
+
+div .place1 .newyork, .friday, .info1, .buy1-button {
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+div .place1 .friday {
+    padding-top: 18px;
+    color: black;
+    opacity: 0.61;
+}
+
+div .place1 .info1 {
+    line-height: 23px;
+    padding-top: 18px;
+}
+
+div .place1 .buy1-button {
+    margin-top: 18px;
+    padding: 10px 13px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+div .place1 .buy1-button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: black;
+}
+
+
+
+
+
+.place2 {
+    position: absolute;
+}
+
+div .place .place2 img {
+    width: 238px;
+    position: absolute;
+}
+
+div .place .place2 img:hover {
+    opacity: 0.5;
+}
+
+div .place2-text {
+    margin-top: 195px;
+}
+
+div .place2 .paris, .saturday, .info2, .buy2-button {
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+div .place2 .saturday {
+    padding-top: 18px;
+    color: black;
+    opacity: 0.61;
+}
+
+div .place2 .info2 {
+    line-height: 23px;
+    padding-top: 18px;
+}
+
+div .place2 .buy2-button {
+    margin-top: 18px;
+    padding: 10px 13px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+div .place2 .buy2-button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: black;
+}
+
+
+
+.place3 {
+    position: absolute;
+}
+
+div .place .place3 img {
+    width: 238px;
+    position: absolute;
+}
+
+div .place .place3 img:hover {
+    opacity: 0.5;
+}
+
+div .place3-text {
+    margin-top: 195px;
+}
+
+div .place3 .sanfran, .sunday, .info3, .buy3-button {
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+div .place3 .sunday {
+    padding-top: 18px;
+    color: black;
+    opacity: 0.61;
+}
+
+div .place3 .info3 {
+    line-height: 23px;
+    padding-top: 18px;
+}
+
+div .place3 .buy3-button {
+    margin-top: 18px;
+    padding: 10px 13px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+div .place3 .buy3-button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: black;
+}
+/*  */
+
+
+
+/* CONTACT SECTION */
+#contact-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#contact .contact {
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+
+#contact .fan {
+    font-size: 15px;
+    color: gray;
+    margin-top: 28px;
+}
+
+
+#contact-info-and-form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#contact-info-and-form .contact-info p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: -10%;
+}
+
+#contact-info-and-form .contact-info p span {
+    margin-left:15px;
+}
+
+div form p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 22.5%;
+    margin-top: 20px;
+}
+
+#contact-info-and-form form input {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#form .form-name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: -30px;
+}
+
+#form .form-email {
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: -30px;
+}
+
+#form .form-message {
+    margin-left: 11.4%;
+    margin-top: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 206px;
+    padding-left: 10px;
+}
+
+#form .form-send-button {
+    margin-top: 15px;
+    margin-left: 93%;
+    padding: 10px 16px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#form .form-send-button:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+
+.map {
+    margin-top: 125px;
+    margin-left: -8px;
+}
+
+.map img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*  */
+
+
+
+/* FOOTER SECTION */
+.footer .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 79px;
+}
+
+.footer .social-media a {
+   margin-left: 5px;
+}
+
+.footer .social-media a:hover{
+    cursor: pointer;
+}
+
+.footer .social-media .snapchat {
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    font-size: 20px;
+    background-color: #3e4147;
+    border: 1px solid #3e4147;
+    width: 25px;
+    height: 23px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+ .footer .powered {
+    color: gray;
+    margin-top: 27px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer .powered a {
+        color: gray;
+}
+
+.footer .powered a:hover {
+    cursor: pointer;
+}   
+/*  */
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 480px) {
+    /* HEADER SECTION */
+#nav-bar header {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    z-index: 99;
+}
+
+#nav-bar header ul li {
+    font-size: 15px;
+    list-style: none;
+    display: inline;
+}
+
+#nav-bar header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 16px 24px;
+}
+
+#nav-bar header ul li a:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+#nav-bar header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar header ul li .more:hover {
+    color: black;
+}
+
+#nav-bar header ul .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#nav-bar header ul .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    line-height: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#nav-bar ul .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+#nav-bar header ul .dropdown-content a:hover {
+    background-color: #ccc;
+}
+
+#nav-bar header ul .dropdown  .more {
+    padding: 16.6px 24px;
+}
+
+#nav-bar header ul .dropdown:hover .more {
+    background-color: #ccc;
+} 
+
+#nav-bar header ul .dropdown-content a {
+    background-color: white;
+}
+
+#nav-bar header ul .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#nav-bar header p {
+    padding: 15.5px 20px;
+    color: white;
+}
+    
+#nav-bar header p:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+}
+/*  */
